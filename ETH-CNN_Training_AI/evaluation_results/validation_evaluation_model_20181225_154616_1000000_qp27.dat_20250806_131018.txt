@@ -1,0 +1,97 @@
+HEVC-CNN Model Validation Evaluation Results
+Generated on: 20250806_131018
+Model: qp22
+Model file: Models/model_20181225_154616_1000000_qp27.dat
+Dataset: Validation Set Only
+============================================================
+Evaluation thresholds: [0.5, 0.5, 0.5]
+
+============================================================
+Evaluating Validation Dataset
+============================================================
+Processing 5000 samples in batches of 1000...
+
+Overall Results:
+Average Loss: nan
+Average Accuracy: 64x64=0.6734, 32x32=0.7610, 16x16=0.7813
+
+Confusion Matrices:
+64x64 CU: [[616, 97], [1536, 2751]]
+32x32 CU: [[7339, 465], [3634, 5710]]
+16x16 CU: [[15378, 2267], [5910, 13821]]
+
+Detailed Metrics:
+64x64 CU:
+  Accuracy: 0.6734
+  Precision: 0.9659
+  Recall: 0.6417
+  F1-score: 0.7711
+  Tendency: -0.5497
+32x32 CU:
+  Accuracy: 0.7610
+  Precision: 0.9247
+  Recall: 0.6111
+  F1-score: 0.7359
+  Tendency: -1.0019
+16x16 CU:
+  Accuracy: 0.7812
+  Precision: 0.8591
+  Recall: 0.7005
+  F1-score: 0.7717
+  Tendency: -0.4625
+
+============================================================
+QP Range Analysis for Validation
+============================================================
+
+------------------------------
+QP in [20, 25)
+Sample count: 5000
+------------------------------
+
+============================================================
+Evaluating Validation_QP in [20, 25) Dataset
+============================================================
+Processing 5000 samples in batches of 1000...
+
+Overall Results:
+Average Loss: nan
+Average Accuracy: 64x64=0.6734, 32x32=0.7610, 16x16=0.7813
+
+Confusion Matrices:
+64x64 CU: [[616, 97], [1536, 2751]]
+32x32 CU: [[7339, 465], [3634, 5710]]
+16x16 CU: [[15378, 2267], [5910, 13821]]
+
+Detailed Metrics:
+64x64 CU:
+  Accuracy: 0.6734
+  Precision: 0.9659
+  Recall: 0.6417
+  F1-score: 0.7711
+  Tendency: -0.5497
+32x32 CU:
+  Accuracy: 0.7610
+  Precision: 0.9247
+  Recall: 0.6111
+  F1-score: 0.7359
+  Tendency: -1.0019
+16x16 CU:
+  Accuracy: 0.7812
+  Precision: 0.8591
+  Recall: 0.7005
+  F1-score: 0.7717
+  Tendency: -0.4625
+
+============================================================
+VALIDATION SET SUMMARY
+============================================================
+Overall Accuracy: [0.6734     0.76104093 0.78128425]
+Average Loss: nan
+64x64 CU Accuracy: 0.6734
+32x32 CU Accuracy: 0.7610
+16x16 CU Accuracy: 0.7813
+64x64 CU F1-Score: 0.7711
+32x32 CU F1-Score: 0.7359
+16x16 CU F1-Score: 0.7717
+Average F1-Score: 0.7596
