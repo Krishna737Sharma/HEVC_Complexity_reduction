@@ -28,9 +28,20 @@ Available resolutions:
 
 ## Installation & Setup
 
-### Method 1: Download from Original Source
+### Method 1: Download from Original Sources
 
 #### Step 1: Download the Dataset
+Choose one of the following sources to download the dataset files:
+
+**Google Drive:**
+- Link: https://drive.google.com/drive/folders/1ftpSoq21vjBHgKJmbhQyQXb0L430gDwK?usp=sharing
+
+**Dropbox:**
+- Link: https://www.dropbox.com/sh/eo5dc3h27t41etl/AAADvFKoc5nYcZw6KO9XNycZa?dl=0
+
+**Baidu Cloud Disk:**
+- Link: https://pan.baidu.com/s/1hszUzeW
+
 Download the following files:
 - `info.rar`
 - `yuv_all.part1.rar` through `yuv_all.part7.rar`
@@ -57,27 +68,36 @@ unrar x yuv_all.part1.rar
 #### Step 3: Extract Info Files
 Extract `info.rar` separately to get the metadata files.
 
-### Method 2: Download via Kaggle Hub (Recommended)
+### Method 2: Download via Kaggle Hub (Raw Dataset)
 
 ```python
 import kagglehub
 
-# Download the raw dataset
+# Download the raw CPH-Intra dataset
 path = kagglehub.dataset_download("krishnasharma737/cph-intra-dataset")
 print("Path to dataset files:", path)
 ```
 
-### Method 3: Download Pre-processed Dataset
+### Method 3: Download Pre-processed Dataset (Recommended)
+
+For users who want to skip the extraction and processing steps:
 
 ```python
 import kagglehub
 
-# Download pre-processed training datasets
+# Download pre-processed training datasets directly
 path = kagglehub.dataset_download("krishnasharma737/cph-training-datasets")
 print("Path to dataset files:", path)
 ```
 
+This method provides the final processed files:
+- `AI_Train_2446725.dat` and `AI_Train_2446725.dat_shuffled`
+- `AI_Valid_143925.dat` and `AI_Valid_143925.dat_shuffled`
+- `AI_Test_287850.dat` and `AI_Test_287850.dat_shuffled`
+
 ## Data Preparation Pipeline
+
+> **Note:** Skip this section if you used Method 3 (pre-processed dataset download)
 
 ### File Organization
 
@@ -164,7 +184,6 @@ test_data = np.fromfile('AI_Test_287850.dat_shuffled', dtype=np.uint8)
 - NumPy
 - Kaggle Hub (for direct download)
 - WinRAR/7-Zip/unrar (for manual extraction)
-
 ---
 
 **Note**: The dataset files are large (several GB). Ensure you have sufficient storage space and a stable internet connection for downloading.
