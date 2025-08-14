@@ -1,0 +1,186 @@
+HEVC CU PARTITION MODEL EVALUATION RESULTS
+============================================================
+Dataset: Full Dataset
+Evaluation Type: Complete Validation Set
+Dataset Switch: 0
+Timestamp: 20250814_130016
+Models Evaluated: 4
+============================================================
+
+MODEL 1: QP22 (QP=22)
+============================================================
+Model Path: Models/model_20181227_060655_1000000_qp22.dat
+Training QP: 22
+
+COMPLETE VALIDATION SET EVALUATION
+========================================
+Total validation samples: 60000
+
+DETAILED RESULTS:
+------------------------------
+Confusion Matrix 64x64: [[ 7300   947]
+ [17949 33804]]
+Confusion Matrix 32x32: [[83092 11386]
+ [33929 78605]]
+Confusion Matrix 16x16: [[160713  51482]
+ [ 44633 193308]]
+
+Accuracy Results:
+  64x64 CU Accuracy: 0.685067
+  32x32 CU Accuracy: 0.781100
+  16x16 CU Accuracy: 0.786476
+
+Tendency Results:
+  64x64 CU Tendency: -0.612045
+  32x32 CU Tendency: -0.498309
+  16x16 CU Tendency: 0.142198
+
+Overall Weighted Accuracy: 0.750881
+
+============================================================
+
+MODEL 2: QP27 (QP=27)
+============================================================
+Model Path: Models/model_20181225_154616_1000000_qp27.dat
+Training QP: 27
+
+COMPLETE VALIDATION SET EVALUATION
+========================================
+Total validation samples: 60000
+
+DETAILED RESULTS:
+------------------------------
+Confusion Matrix 64x64: [[ 7184  1063]
+ [18480 33273]]
+Confusion Matrix 32x32: [[88786  5692]
+ [44372 68162]]
+Confusion Matrix 16x16: [[184760  27435]
+ [ 76213 161728]]
+
+Accuracy Results:
+  64x64 CU Accuracy: 0.674283
+  32x32 CU Accuracy: 0.758159
+  16x16 CU Accuracy: 0.769741
+
+Tendency Results:
+  64x64 CU Tendency: -0.574443
+  32x32 CU Tendency: -1.006646
+  16x16 CU Tendency: -0.501547
+
+Overall Weighted Accuracy: 0.734061
+
+============================================================
+
+MODEL 3: QP32 (QP=32)
+============================================================
+Model Path: Models/model_20181226_045506_1000000_qp32.dat
+Training QP: 32
+
+COMPLETE VALIDATION SET EVALUATION
+========================================
+Total validation samples: 60000
+
+DETAILED RESULTS:
+------------------------------
+Confusion Matrix 64x64: [[ 5543  2704]
+ [13219 38534]]
+Confusion Matrix 32x32: [[88479  5999]
+ [48947 63587]]
+Confusion Matrix 16x16: [[188121  24074]
+ [ 90295 147646]]
+
+Accuracy Results:
+  64x64 CU Accuracy: 0.734617
+  32x32 CU Accuracy: 0.734576
+  16x16 CU Accuracy: 0.745923
+
+Tendency Results:
+  64x64 CU Tendency: 0.152907
+  32x32 CU Tendency: -1.055119
+  16x16 CU Tendency: -0.679331
+
+Overall Weighted Accuracy: 0.738372
+
+============================================================
+
+MODEL 4: QP37 (QP=37)
+============================================================
+Model Path: Models/model_20181226_192018_1000000_qp37.dat
+Training QP: 37
+
+COMPLETE VALIDATION SET EVALUATION
+========================================
+Total validation samples: 60000
+
+DETAILED RESULTS:
+------------------------------
+Confusion Matrix 64x64: [[ 5462  2785]
+ [13957 37796]]
+Confusion Matrix 32x32: [[86447  8031]
+ [49642 62892]]
+Confusion Matrix 16x16: [[191270  20925]
+ [104087 133854]]
+
+Accuracy Results:
+  64x64 CU Accuracy: 0.720967
+  32x32 CU Accuracy: 0.721403
+  16x16 CU Accuracy: 0.722279
+
+Tendency Results:
+  64x64 CU Tendency: 0.140127
+  32x32 CU Tendency: -0.929234
+  16x16 CU Tendency: -0.851747
+
+Overall Weighted Accuracy: 0.721550
+
+============================================================
+
+OVERALL PERFORMANCE SUMMARY
+============================================================
+Dataset: Full Dataset
+Total Models Evaluated: 4
+
+SUMMARY TABLE:
+--------------------------------------------------------------------------------
+Model		QP	Samples		Acc_64		Acc_32		Acc_16		Overall
+--------------------------------------------------------------------------------
+QP22		22	60000		0.6851		0.7811		0.7865		0.7509
+QP27		27	60000		0.6743		0.7582		0.7697		0.7341
+QP32		32	60000		0.7346		0.7346		0.7459		0.7384
+QP37		37	60000		0.7210		0.7214		0.7223		0.7215
+--------------------------------------------------------------------------------
+
+PERFORMANCE ANALYSIS:
+----------------------------------------
+Best Performing Model:
+  Model: QP22 (QP=22)
+  Overall Accuracy: 0.750881
+  64x64 Accuracy: 0.685067
+  32x32 Accuracy: 0.781100
+  16x16 Accuracy: 0.786476
+
+Worst Performing Model:
+  Model: QP37 (QP=37)
+  Overall Accuracy: 0.721550
+  64x64 Accuracy: 0.720967
+  32x32 Accuracy: 0.721403
+  16x16 Accuracy: 0.722279
+
+Performance Range:
+  Accuracy Range: 0.721550 - 0.750881
+  Accuracy Difference: 0.029331
+
+AVERAGE PERFORMANCE ACROSS ALL MODELS:
+----------------------------------------
+Average 64x64 Accuracy: 0.703733
+Average 32x32 Accuracy: 0.748809
+Average 16x16 Accuracy: 0.756105
+Average Overall Accuracy: 0.736216
+
+Dataset Statistics:
+  Total Validation Samples: 60,000
+  Evaluation Method: Complete Validation Set
+  QP Coverage: All available QP ranges in dataset
+
+============================================================
+Evaluation completed at: 2025-08-14 13:01:06
