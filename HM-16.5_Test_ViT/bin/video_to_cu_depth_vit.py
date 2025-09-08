@@ -54,7 +54,7 @@ def get_y_conv_on_large_data_vit(input_image, qp_seq):
     """Get ViT predictions for large batches"""
     batch_size = np.shape(input_image)[0]
     y_conv_out = np.zeros((batch_size, 21))
-    sub_batch_size = 2176
+    sub_batch_size = 1024
 
     for i in range(int(math.ceil(batch_size / float(sub_batch_size)))):
         index_start = i * sub_batch_size
