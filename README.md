@@ -1,4 +1,4 @@
-# HEVC Deep Learning Dataset Generation and Training (Intra Prediction Mode)
+# HEVC Deep Learning Dataset Generation, Training and Inference (Intra Prediction Mode)
 
 ## Overview
 
