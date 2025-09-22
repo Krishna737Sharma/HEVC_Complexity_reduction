@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "/home/m1/23CS60R16/Dec_6_Model_data/Hevc_models_script/ViT_2.3M/ViT_timing_Script.py", line 10, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/m1/23CS60R16/rishab_venv/lib/python3.10/site-packages/matplotlib/pyplot.py", line 70, in <module>
+    from matplotlib.figure import Figure, FigureBase, figaspect
+  File "/home/m1/23CS60R16/rishab_venv/lib/python3.10/site-packages/matplotlib/figure.py", line 40, in <module>
+    from matplotlib import _blocking_input, backend_bases, _docstring, projections
+  File "/home/m1/23CS60R16/rishab_venv/lib/python3.10/site-packages/matplotlib/projections/__init__.py", line 55, in <module>
+    from .. import axes, _docstring
+  File "/home/m1/23CS60R16/rishab_venv/lib/python3.10/site-packages/matplotlib/axes/__init__.py", line 2, in <module>
+    from ._axes import Axes
+  File "/home/m1/23CS60R16/rishab_venv/lib/python3.10/site-packages/matplotlib/axes/_axes.py", line 11, in <module>
+    import matplotlib.category  # Register category unit converter as side effect.
+  File "/home/m1/23CS60R16/rishab_venv/lib/python3.10/site-packages/matplotlib/category.py", line 14, in <module>
+    import dateutil.parser
+  File "/home/m1/23CS60R16/rishab_venv/lib/python3.10/site-packages/dateutil/parser/__init__.py", line 2, in <module>
+    from ._parser import parse, parser, parserinfo, ParserError
+  File "/home/m1/23CS60R16/rishab_venv/lib/python3.10/site-packages/dateutil/parser/_parser.py", line 50, in <module>
+    from .. import tz
+  File "<frozen importlib._bootstrap>", line 1075, in _handle_fromlist
+  File "/home/m1/23CS60R16/rishab_venv/lib/python3.10/site-packages/dateutil/__init__.py", line 16, in __getattr__
+    return importlib.import_module("." + name, __name__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/m1/23CS60R16/rishab_venv/lib/python3.10/site-packages/dateutil/tz/__init__.py", line 2, in <module>
+    from .tz import *
+  File "/home/m1/23CS60R16/rishab_venv/lib/python3.10/site-packages/dateutil/tz/tz.py", line 29, in <module>
+    from .win import tzwin, tzwinlocal
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+KeyboardInterrupt

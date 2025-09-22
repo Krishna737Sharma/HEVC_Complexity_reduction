@@ -1,0 +1,115 @@
+wandb: Appending key for api.wandb.ai to your netrc file: /home/m1/23CS60R16/.netrc
+wandb: Currently logged in as: i-rishab-duhan (i-rishab-duhan-iit-kharagpur) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Tracking run with wandb version 0.19.6
+wandb: Run data is saved locally in /home/m1/23CS60R16/Dec_6_Model_data/Hevc_models_script/ViT_2.3M/wandb/run-20250402_142630-c3sc0n8d
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run devoted-breeze-155
+wandb: ⭐️ View project at https://wandb.ai/i-rishab-duhan-iit-kharagpur/vit-training
+wandb: 🚀 View run at https://wandb.ai/i-rishab-duhan-iit-kharagpur/vit-training/runs/c3sc0n8d
+CPU Time taken for batch size of 2040 is 0.8308584420000003
+CPU Time taken for batch size of 2040 is 0.004470496999999796
+CPU Time taken for batch size of 2040 is 0.003783572000001456
+CPU Time taken for batch size of 2040 is 0.0037803469999992956
+CPU Time taken for batch size of 2040 is 0.0037711680000001024
+CPU Time taken for batch size of 2040 is 0.0037529500000008653
+CPU Time taken for batch size of 2040 is 0.0037452970000000363
+CPU Time taken for batch size of 2040 is 0.004753180999999884
+CPU Time taken for batch size of 2040 is 0.005953926000000109
+CPU Time taken for batch size of 2040 is 0.006094405000000691
+CPU Time taken for batch size of 2040 is 0.00610503700000109
+CPU Time taken for batch size of 2040 is 0.004756017000000057
+CPU Time taken for batch size of 2040 is 0.006034388999999862
+CPU Time taken for batch size of 2040 is 0.007160519000001031
+CPU Time taken for batch size of 2040 is 0.006358461999999676
+CPU Time taken for batch size of 2040 is 0.005368947000000901
+CPU Time taken for batch size of 2040 is 0.004810054000000008
+CPU Time taken for batch size of 2040 is 0.005493095999998587
+CPU Time taken for batch size of 2040 is 0.005561074999999249
+CPU Time taken for batch size of 2040 is 0.007360691999998892
+CPU Time taken for batch size of 2040 is 0.004927359999999936
+CPU Time taken for batch size of 2040 is 0.007883980999999096
+CPU Time taken for batch size of 2040 is 0.006987285000001009
+CPU Time taken for batch size of 2040 is 0.005625135999999031
+CPU Time taken for batch size of 2040 is 0.006718743999996946
+CPU Time taken for batch size of 2040 is 0.005570089000002554
+CPU Time taken for batch size of 2040 is 0.007548483000000772
+CPU Time taken for batch size of 2040 is 0.005656174000002068
+CPU Time taken for batch size of 2040 is 0.0055344849999983126
+CPU Time taken for batch size of 2040 is 0.008490478000002355
+CPU Time taken for batch size of 2040 is 0.005952775000000798
+CPU Time taken for batch size of 2040 is 0.004472195000001733
+CPU Time taken for batch size of 2040 is 0.006802116999999441
+CPU Time taken for batch size of 2040 is 0.006901286000001505
+CPU Time taken for batch size of 2040 is 0.007822578000002522
+CPU Time taken for batch size of 2040 is 0.007733436000002314
+CPU Time taken for batch size of 2040 is 0.006844552000000448
+CPU Time taken for batch size of 2040 is 0.0059928209999995374
+CPU Time taken for batch size of 2040 is 0.006351740999999578
+CPU Time taken for batch size of 2040 is 0.008754555000002995
+CPU Time taken for batch size of 2040 is 0.00612749099999732
+CPU Time taken for batch size of 2040 is 0.006267104000002632
+CPU Time taken for batch size of 2040 is 0.00440954200000121
+CPU Time taken for batch size of 2040 is 0.005684648999999098
+CPU Time taken for batch size of 2040 is 0.005883385000000629
+CPU Time taken for batch size of 2040 is 0.0065469650000018476
+CPU Time taken for batch size of 2040 is 0.006103420999998832
+CPU Time taken for batch size of 2040 is 0.004742538999998658
+CPU Time taken for batch size of 2040 is 0.006391891999999899
+CPU Time taken for batch size of 2040 is 0.006417915000000107
+CPU Time taken for batch size of 2040 is 0.005692758000002129
+CPU Time taken for batch size of 2040 is 0.00849161200000026
+CPU Time taken for batch size of 2040 is 0.0065071720000027256
+CPU Time taken for batch size of 2040 is 0.007192568000000676
+CPU Time taken for batch size of 2040 is 0.006843527000000904
+CPU Time taken for batch size of 2040 is 0.003969984999997678
+CPU Time taken for batch size of 2040 is 0.006253689999994094
+CPU Time taken for batch size of 2040 is 0.005785252999999102
+CPU Time taken for batch size of 2040 is 0.007822748000002377
+CPU Time taken for batch size of 2040 is 0.0074130379999957086
+CPU Time taken for batch size of 2040 is 0.006654670999999723
+CPU Time taken for batch size of 2040 is 0.00636582300000299
+CPU Time taken for batch size of 2040 is 0.006256640000003699
+CPU Time taken for batch size of 2040 is 0.004894034999999519
+CPU Time taken for batch size of 2040 is 0.008047203999993258
+CPU Time taken for batch size of 2040 is 0.006106116000005102
+CPU Time taken for batch size of 2040 is 0.008441527000002225
+CPU Time taken for batch size of 2040 is 0.0071614809999971385
+CPU Time taken for batch size of 2040 is 0.005491770999995538
+CPU Time taken for batch size of 2040 is 0.006123617000000081
+CPU Time taken for batch size of 2040 is 0.0036953420000003234
+CPU Time taken for batch size of 2040 is 0.0053753309999962084
+CPU Time taken for batch size of 2040 is 0.003842536000000507
+CPU Time taken for batch size of 2040 is 0.008661299999999983
+CPU Time taken for batch size of 2040 is 0.004430718000001832
+CPU Time taken for batch size of 2040 is 0.005190727999995204
+CPU Time taken for batch size of 2040 is 0.0037694359999989047
+CPU Time taken for batch size of 2040 is 0.007298444999996434
+CPU Time taken for batch size of 2040 is 0.0037724009999990926
+CPU Time taken for batch size of 2040 is 0.008585532999994427
+CPU Time taken for batch size of 2040 is 0.00373772599999711
+CPU Time taken for batch size of 2040 is 0.004005904999999643
+CPU Time taken for batch size of 2040 is 0.0037571379999974397
+CPU Time taken for batch size of 2040 is 0.007076263999998389
+CPU Time taken for batch size of 2040 is 0.003684863000003702
+CPU Time taken for batch size of 2040 is 0.006911725000001923
+CPU Time taken for batch size of 2040 is 0.004269264999997802
+CPU Time taken for batch size of 2040 is 0.006416595000004577
+CPU Time taken for batch size of 2040 is 0.0037522179999953664
+CPU Time taken for batch size of 2040 is 0.007250591999998335
+CPU Time taken for batch size of 2040 is 0.003699193999999295
+CPU Time taken for batch size of 2040 is 0.004524912999997355
+CPU Time taken for batch size of 2040 is 0.0037476989999944976
+CPU Time taken for batch size of 2040 is 0.007035737999999014
+CPU Time taken for batch size of 2040 is 0.00364859799999806
+CPU Time taken for batch size of 2040 is 0.007799521999999115
+CPU Time taken for batch size of 2040 is 0.004256651000005718
+Test Loss: 0.2090, Test Accuracy: 82.50%
+Testing Loss: 0.2090 Accuracy: 82.50% | L1: 88.10% | L2: 81.78% | L3: 77.61%
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mdevoted-breeze-155[0m at: [34mhttps://wandb.ai/i-rishab-duhan-iit-kharagpur/vit-training/runs/c3sc0n8d[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250402_142630-c3sc0n8d/logs[0m
+
+real	1m35.836s
+user	2m17.417s
+sys	0m42.104s
