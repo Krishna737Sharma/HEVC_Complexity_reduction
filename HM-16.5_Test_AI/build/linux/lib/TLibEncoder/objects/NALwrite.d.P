@@ -1,0 +1,15 @@
+objects/NALwrite.d.o: \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_AI/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/NALwrite.cpp \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_AI/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/NAL.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_AI/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_AI/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_AI/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComBitStream.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_AI/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/NALwrite.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_AI/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/CommonDef.h
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_AI/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/NALwrite.cpp :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_AI/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/NAL.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_AI/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_AI/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_AI/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComBitStream.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_AI/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/NALwrite.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_AI/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/CommonDef.h :
