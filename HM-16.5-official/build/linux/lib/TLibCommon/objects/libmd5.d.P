@@ -1,0 +1,5 @@
+objects/libmd5.d.o: \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibCommon/../../../../source/Lib/libmd5/libmd5.c \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibCommon/../../../../source/Lib/libmd5/libmd5.h
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibCommon/../../../../source/Lib/libmd5/libmd5.c :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibCommon/../../../../source/Lib/libmd5/libmd5.h :

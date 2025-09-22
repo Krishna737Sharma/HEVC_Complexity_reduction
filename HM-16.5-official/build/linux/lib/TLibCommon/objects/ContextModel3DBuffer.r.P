@@ -1,0 +1,13 @@
+objects/ContextModel3DBuffer.r.o: \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/ContextModel3DBuffer.cpp \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/ContextModel3DBuffer.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/ContextModel.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRom.h
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/ContextModel3DBuffer.cpp :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/ContextModel3DBuffer.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/ContextModel.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRom.h :

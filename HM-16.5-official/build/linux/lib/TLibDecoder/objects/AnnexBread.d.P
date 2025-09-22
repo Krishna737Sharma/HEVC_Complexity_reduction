@@ -1,0 +1,9 @@
+objects/AnnexBread.d.o: \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibDecoder/AnnexBread.cpp \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibDecoder/AnnexBread.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibCommon/TypeDef.h
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibDecoder/AnnexBread.cpp :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibDecoder/AnnexBread.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibCommon/TypeDef.h :

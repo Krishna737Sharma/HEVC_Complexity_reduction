@@ -1,0 +1,15 @@
+objects/NALread.r.o: \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibDecoder/NALread.cpp \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibDecoder/NALread.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibCommon/TComBitStream.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibCommon/NAL.h
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibDecoder/NALread.cpp :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibDecoder/NALread.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibCommon/TComBitStream.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibDecoder/../../../../source/Lib/TLibCommon/NAL.h :

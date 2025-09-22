@@ -1,0 +1,25 @@
+objects/TEncBinCoderCABAC.d.o: \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/TEncBinCoderCABAC.cpp \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/TEncBinCoderCABAC.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComCABACTables.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComRom.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/TEncBinCoder.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/ContextModel.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComRom.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComBitStream.h \
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/Debug.h
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/TEncBinCoderCABAC.cpp :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/TEncBinCoderCABAC.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComCABACTables.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComRom.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/TEncBinCoder.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/ContextModel.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComRom.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComBitStream.h :
+ /root/myproject/HEVC-CNN/HM-16.5-official/build/linux/lib/TLibEncoder/../../../../source/Lib/TLibCommon/Debug.h :
