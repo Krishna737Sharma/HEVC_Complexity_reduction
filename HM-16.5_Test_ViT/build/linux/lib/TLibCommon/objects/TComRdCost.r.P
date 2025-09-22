@@ -1,0 +1,31 @@
+objects/TComRdCost.r.o: \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRdCost.cpp \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRom.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRdCost.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComPattern.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComMv.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComSlice.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComList.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComChromaFormat.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRectangle.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/ContextTables.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/Debug.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRdCostWeightPrediction.h
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRdCost.cpp :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRom.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRdCost.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComPattern.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComMv.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComSlice.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComList.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComChromaFormat.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRectangle.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/ContextTables.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/Debug.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRdCostWeightPrediction.h :

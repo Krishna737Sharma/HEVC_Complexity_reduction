@@ -1,0 +1,5 @@
+objects/program_options_lite.r.o: \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TAppCommon/../../../../source/Lib/TAppCommon/program_options_lite.cpp \
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TAppCommon/../../../../source/Lib/TAppCommon/program_options_lite.h
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TAppCommon/../../../../source/Lib/TAppCommon/program_options_lite.cpp :
+ /root/myproject/HEVC-CNN/HEVC-Complexity-Reduction/HM-16.5_Test_ViT/build/linux/lib/TAppCommon/../../../../source/Lib/TAppCommon/program_options_lite.h :
