@@ -4,13 +4,20 @@
 
 This project implements a Vision Transformer (ViT) model to replace CNN-based approaches for predicting optimal Coding Unit (CU) partitions in HEVC intra encoding. The ViT model processes 64x64 pixel patches from video frames and predicts hierarchical CU split decisions to accelerate the encoding process.
 
-## Dataset Structure
+## Dataset Structure and Processing
 
-### Data Format
-Each training sample is a 4992-byte structure containing:
-- **Bytes 0-4095**: 64x64 luma (Y-channel) pixel values (4096 bytes)
-- **Bytes 4096-4159**: Padding/unused space (64 bytes)
-- **Bytes 4160-4991**: CU depth labels for QPs 0-51 (832 bytes total, 16 bytes per QP)
+### Raw Data Format (4992 bytes per sample)
+
+Each training sample represents one 64x64 CTU and contains three main sections:
+
+```
+[Image Data: 4096 bytes] [Padding: 64 bytes] [Label Data: 832 bytes]
+    |                         |                      |
+    v                         v                      v
+64x64 luma pixels        Unused space        CU depths for all QPs (0-51)
+```
+### Note:
+The model was trained on a self-prepared 4K resolution dataset derived from the CPH dataset.
 
 ### Label Processing
 The model uses hierarchical label generation:
@@ -26,6 +33,20 @@ y_image_64 = F.relu(F.avg_pool2d(y_image.permute(0, 2, 1), kernel_size=4) - 0) -
 Final output: 21-dimensional vector (1 + 4 + 16 for 64x64, 32x32, and 16x16 split decisions)
 
 ## Model Architecture
+
+```
+Input: [Batch, 1, 64, 64] image + [Batch] QP values
+    ↓
+[PatchEmbed] → Convert to [Batch, 64, 196] patches
+    ↓
+[Add CLS Token + Position Embedding] → [Batch, 65, 196]
+    ↓
+[5 × CustomTransformerEncoderLayer] → Process with attention + QP integration
+    ↓
+[Classification Head] → [Batch, 21] partition predictions
+    ↓
+Output: Sigmoid activation → probabilities for each split decision
+```
 
 ### Vision Transformer Configuration
 ```python
@@ -102,17 +123,34 @@ def calculate_accuracy_repo(y_flat_64, y_conv_flat_64, y_flat_32, y_conv_flat_32
     avg_acc = (accuracy_64 + accuracy_32 + accuracy_16) / 3
 ```
 
-### BD-Rate Performance Comparison
+## Performance Results
 
-| Video Sequence | CNN vs HEVC BD-Rate (%) | ViT vs HEVC BD-Rate (%) |
-|---|---|---|
-| IntraValid_4928x3264.yuv (25f) | 2.12 | 2.04 |
-| Rush_Hour.yuv_3840x2160 (250f) | 5.88 | 5.03 |
-| Netflix_FoodMarket2_4096x2160.yuv (150f) | 6.45 | 5.22 |
-| Scarf.yuv_3840x2160 (100f) | 4.02 | 3.53 |
-| Construction_Field.yuv (7f) | 6.49 | 4.89 |
+### BD-Rate Comparison
+BD-Rate (Bjøntegaard Delta Rate) measures bitrate savings at equivalent quality. Lower values indicate better compression efficiency.
+
+| Video Sequence | Resolution | Frames | CNN BD-Rate (%) | ViT BD-Rate (%) | Improvement |
+|---|---|---|---|---|---|
+| IntraValid_4928x3264.yuv | 4928×3264 | 25 | 2.12 | **2.04** | 0.08% better |
+| Rush_Hour.yuv | 3840×2160 | 250 | 5.88 | **5.03** | 0.85% better |
+| Netflix_FoodMarket2_4096x2160.yuv | 4096×2160 | 150 | 6.45 | **5.22** | 1.23% better |
+| Scarf.yuv | 3840×2160 | 100 | 4.02 | **3.53** | 0.49% better |
+| Construction_Field.yuv | High-resolution | 7 | 6.49 | **4.89** | 1.60% better |
+
+**Key Findings:**
+- ViT consistently outperforms CNN across all test sequences
+- Improvements range from 0.08% to 1.60% BD-Rate reduction
+- Larger improvements on complex sequences (Construction_Field, Netflix_FoodMarket2)
+- Average improvement: ~0.85% BD-Rate reduction
 
 **Average Improvement**: ViT achieves better BD-Rate performance compared to CNN across all test sequences.
+
+### Rate-Distortion Curves
+
+The following plots show bitrate vs PSNR for different encoding methods. Lower bitrate at same PSNR indicates better performance.
+
+<img width="700" height="500" alt="rd_curve_Netflix_FoodMarket2_4096x2160_150f" src="https://github.com/user-attachments/assets/cd94dac7-8bde-42fd-8d06-9ddd896e0601" />
+<img width="700" height="500" alt="rd_curve_Construction_Field_7f" src="https://github.com/user-attachments/assets/0291fa16-425d-4377-aa19-85bc98b5dd8f" />
+
 
 ## Integration with HEVC Encoder
 
