@@ -218,20 +218,6 @@ We welcome contributions to improve the implementations and extend the research:
 
 This project builds upon the HEVC reference software and follows its licensing terms. Additional implementations are provided for research and educational purposes. Please refer to individual branch licenses for specific terms.
 
-## Citation
-
-If you use this work in your research, please cite the relevant papers and acknowledge the HEVC reference software:
-
-```bibtex
-@misc{accelerated_hevc_2024,
-  title={Accelerated HEVC: Deep Learning Approaches for Fast Video Encoding},
-  author={Krishna Sharma and Contributors},
-  year={2024},
-  publisher={GitHub},
-  url={https://github.com/Krishna737Sharma/Accelerated_HEVC}
-}
-```
-
 ## Acknowledgments
 
 - **HEVC Reference Software Team**: For the foundational HM-16.5 implementation
