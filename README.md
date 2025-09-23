@@ -1,1 +1,1 @@
-# HEVC_Complexity_reduction
+Vision Transformer (ViT) for HEVC Intra Coding Unit Prediction
