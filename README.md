@@ -134,7 +134,7 @@ BD-Rate (Bjøntegaard Delta Rate) measures bitrate savings at equivalent quality
 | Rush_Hour.yuv | 3840×2160 | 250 | 5.88 | **5.03** | 0.85% better |
 | Netflix_FoodMarket2_4096x2160.yuv | 4096×2160 | 150 | 6.45 | **5.22** | 1.23% better |
 | Scarf.yuv | 3840×2160 | 100 | 4.02 | **3.53** | 0.49% better |
-| Construction_Field.yuv | High-resolution | 7 | 6.49 | **4.89** | 1.60% better |
+| Construction_Field.yuv | 3840×2160 | 7 | 6.49 | **4.89** | 1.60% better |
 
 **Key Findings:**
 - ViT consistently outperforms CNN across all test sequences
