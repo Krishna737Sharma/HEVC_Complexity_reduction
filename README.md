@@ -76,7 +76,7 @@ This repository is organized into several specialized branches, each focusing on
 | Rush_Hour | 3840×2160 | 5.88 | **5.03** | 0.85% |
 | Netflix_FoodMarket2 | 4096×2160 | 6.45 | **5.22** | 1.23% |
 | Scarf | 3840×2160 | 4.02 | **3.53** | 0.49% |
-| Construction_Field | High-res | 6.49 | **4.89** | 1.60% |
+| Construction_Field | 3840×2160 | 6.49 | **4.89** | 1.60% |
 
 **Key Findings:**
 - Vision Transformer consistently outperforms traditional CNN approaches
